@@ -1,0 +1,33 @@
+.novo{ padding-left: 90px;}
+ {text-align: center;}
+body{
+  padding-left: 10px;
+  background-color:#e0a8a8;
+  font: 18px arial;
+  text-decoration: none;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-right: 250px;
+  margin-left: 60px;
+  text-align: justify;
+}
+h1{   background-color: rgb(153, 160, 245);
+    border: 15px rgb(3, 20, 97) solid;
+    padding: 25px;
+    padding-left: 200px;
+    font: Arial;
+    position: relative;
+  }
+img{width: 28%;
+border: 5px; margin-left: 400px; }
+.caixa{
+  background-color:  rgba(63, 79, 230, 0.274);
+  color: rgb(17, 17, 14);
+  border: rgb(183, 183, 245) solid;
+  padding:2px;
+  font: 28px  Arial ;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+h2{font: arial 18px;}
+h3{ font: 32px arial }
