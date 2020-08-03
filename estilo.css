@@ -1,33 +1,148 @@
-.novo{ padding-left: 90px;}
- {text-align: center;}
-body{
-  padding-left: 10px;
-  background-color:#e0a8a8;
-  font: 18px arial;
-  text-decoration: none;
-  margin-bottom: 100px;
-  margin-top: 50px;
-  margin-right: 250px;
-  margin-left: 60px;
-  text-align: justify;
+html, body { margin: 10px;}
+
+#imagem_fundo{
+    background: url("img/fundo.jpg");
+    height: 450px;
+    text-align: center;
+    border-style: dashed;
+    background-size: 100% 100%;
+    background-size: cover;
 }
-h1{   background-color: rgb(153, 160, 245);
-    border: 15px rgb(3, 20, 97) solid;
+.título{
+    color: white;
+    font-family: 'Courier New', Courier, monospace 110px;
+    width: auto;
+    padding-top: 5%;
+    letter-spacing: normal;
+    text-shadow: 2px 2px 2px 2px blue;
+    font-size: 50px;
+}
+.subtítulo{
+    color: rgb(12, 11, 11);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 50px;
+}
+.acao{
+    background: white;
+    padding-top: 15px;
+    padding: 20px;
+    border: 2px white;
+    color: black;
+    border-radius: 5px;
+}
+.acao:hover{
+    background: rgb(129, 186, 233);
     padding: 25px;
-    padding-left: 200px;
-    font: Arial;
-    position: relative;
-  }
-img{width: 28%;
-border: 5px; margin-left: 400px; }
-.caixa{
-  background-color:  rgba(63, 79, 230, 0.274);
-  color: rgb(17, 17, 14);
-  border: rgb(183, 183, 245) solid;
-  padding:2px;
-  font: 28px  Arial ;
-  padding-left: 200px;
-  padding-right: 200px;
+    border: 2px white;
+    color: black;
 }
-h2{font: arial 18px;}
-h3{ font: 32px arial }
+#projeto {
+    padding: 20px;
+    float: left;
+}
+.coluna {
+    float: left;
+    padding: 0% 5%;
+    position: relative;
+    width: 40%;
+}
+.colona2 {
+    float: right;
+    padding: 0% 5%;
+    position: relative;
+    width: 40%;
+}
+.colunaquatro {
+    float: left;
+    padding: 0% 5%;
+    position: relative;
+    width: 40%;
+    text-align: justify;
+}
+.ods3 {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+#projeto {
+    background-color: #f8f8fa;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large ;
+}
+#sessão1  {
+    background-color: rgb(241, 246, 248);
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large ;
+}
+.cha {
+    width: 20%;
+    padding-right: 4%;
+    float: right;
+    border-left: solid   rgb(241, 246, 248) 40px;
+}
+#sessãodois {
+    background-color: rgb(20, 41, 61);
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large ;
+    color: white;
+}
+#complemento {
+    background-color: white;
+    padding: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large ;  
+}
+h2, h3 {
+    text-align: center;
+    font: 30px Arial;
+    color: teal;
+}
+h4 {
+    text-align: center;
+    font: 30px Arial;
+    color: whitesmoke;
+}
+h5 {
+    text-align: left;
+    font: 20px Arial;
+    color: rgb(16, 17, 17);
+    margin-bottom: 2%;
+}
+h6 {
+    text-align: center;
+    font: 30px Arial;
+    color: rgb(16, 17, 17);
+    margin-bottom: 0%;
+}
+section {
+    padding: 20px;
+    float:left;
+    background-color: rgb(202, 193, 193);
+}
+.icone {
+    width: 150px;
+    height: 130px;
+    border: solid black;
+}
+#sobre {
+    padding: 10px;
+    float:left;
+    border-style:dashed 50px white;
+}
+.imgeu {
+    width: 120px;
+    padding: 0px;
+    border: solid rgb(253, 253, 253); 
+    float: left;        
+}
